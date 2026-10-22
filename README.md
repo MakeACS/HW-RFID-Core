@@ -2,7 +2,7 @@
 
 This is a variant of the MakeACS Core designed for use with 125KHz RFID cards, using either ASK or FSK modulation. 
 
-This device runs the same consolidated firmware that the NFC Core runs, with a build variant to account for the RFID reader module. 
+This device runs the same consolidated firmware that the NFC Core runs, with a build variant to account for the RFID reader module. This device also uses the same hardware design as the case for the V3.1.X NFC Core.
 
 More information can be found in the [HW-NFC-Core respository](https://github.com/MakeACS/HW-NFC-Core).
 
