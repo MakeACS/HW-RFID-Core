@@ -6,5 +6,7 @@ The primary hardware, firmware, and mechanical development takes place in the [N
 
 The firmware and mechanical aspects of the RFID Core are identical to the NFC Core. Firmware is built on release with a variant to account for the different reader, but everything else is identical. 
 
+End-user documentation on the use of the RFID Core is also integrated into the [NFC Core User Manual](https://makeacs.github.io/HW-NFC-Core/)
+
 ## License
 This project is licensed under the CERN-OHL-S 2.0 License. See LIECENSE.txt for more information.
