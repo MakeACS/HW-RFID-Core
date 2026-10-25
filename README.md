@@ -1,10 +1,10 @@
 # RFID Core
 
-This is a variant of the MakeACS Core designed for use with 125KHz RFID cards, using either ASK or FSK modulation. 
+This is a variant of the [MakeACS NFC Core](https://github.com/MakeACS/HW-NFC-Core), that has its NFC reader replaced with an ASK/FSK 125KHz RFID reader module. This allows for use in organizations that use older RFID card standards for access control, like HID or EM. 
 
-This device runs the same consolidated firmware that the NFC Core runs, with a build variant to account for the RFID reader module. This device also uses the same hardware design as the case for the V3.1.X NFC Core.
+The primary hardware, firmware, and mechanical development takes place in the [NFC Core repository](https://github.com/MakeACS/HW-NFC-Core), with the hardware being cloned and the reader being swapped out when a new release is needed. All issues and development progress are tracked on the [NFC Core issues page](https://github.com/MakeACS/HW-NFC-Core/issues). 
 
-More information can be found in the [HW-NFC-Core respository](https://github.com/MakeACS/HW-NFC-Core).
+The firmware and mechanical aspects of the RFID Core are identical to the NFC Core. Firmware is built on release with a variant to account for the different reader, but everything else is identical. 
 
 ## License
 This project is licensed under the CERN-OHL-S 2.0 License. See LIECENSE.txt for more information.
